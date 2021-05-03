@@ -1,0 +1,28 @@
+.nav {
+    background-color: teal;
+    text-align: center;
+}
+
+.nav__list {
+    list-style: none;
+    margin: 0;
+}
+
+.nav__element {
+    display: inline-block;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+    background: teal;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+}
+
+.nav__link:hover {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(1, 71, 71);
+}

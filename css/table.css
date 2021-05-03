@@ -1,0 +1,41 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.table__caption {
+    color: teal;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2.5;
+    text-align: left;
+    margin: 30px 0;
+}
+
+.tableHeader {
+    background: teal;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.table__cell {
+    border: 2px solid #ccc;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.table__cell:hover {
+    color: white;
+    background-color: teal;
+}
+
+
+
+.table__cell--color {
+    background: teal;
+    color: white;
+    font-weight: bolder;
+}

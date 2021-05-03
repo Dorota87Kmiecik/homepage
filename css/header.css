@@ -1,0 +1,39 @@
+.header__title {
+    text-align: center;
+    color: teal;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2.5;
+}
+
+
+.header__image {
+    display: block;
+    margin: 20px auto;
+    max-height: 500px;
+    max-width: 300px;
+}
+
+.header__paragraph--strong {
+    color: #ddd;
+    background-color: teal;
+}
+
+.header__button {
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 1px -4px 44px -1px rgba(133, 126, 133, 1);
+    color: rgb(16, 107, 107);
+    font-weight: bolder;
+}
+
+
+.header__button:hover {
+    background: rgb(16, 107, 107);
+    color: white;
+}
+
+.header__title--color {
+    color: #ddd;
+    background-color: teal;
+}

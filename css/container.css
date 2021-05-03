@@ -1,0 +1,8 @@
+.container {
+    line-height: 1.5;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow-x: auto;
+    padding: 50px;
+
+}

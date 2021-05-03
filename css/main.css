@@ -1,0 +1,19 @@
+.main__headers {
+    color: teal;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2.5;
+}
+
+.main__remove {
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 1px -4px 44px -1px rgba(133, 126, 133, 1);
+    color: rgb(16, 107, 107);
+    font-weight: bolder;
+}
+
+.main__remove:hover {
+    background: rgb(16, 107, 107);
+    color: white;
+}
