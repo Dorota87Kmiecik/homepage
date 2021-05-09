@@ -33,7 +33,7 @@
     color: white;
 }
 
-.header__title--color {
+.js-header__title--color {
     color: #ddd;
     background-color: teal;
 }

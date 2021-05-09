@@ -1,20 +1,35 @@
-let paragraphDelete = document.querySelector(".main__paragraphDelete");
-let button = document.querySelector(".main__remove");
-let button2 = document.querySelector(".header__button");
-let mainHeader = document.querySelector(".header__title");
+{
+    const welcome = () => {
+        console.log("Witamy w naszej bajce");
+    };
 
-
-button.addEventListener("click", () => {
-    paragraphDelete.remove();
-    button.remove();
-});
-
-button2.addEventListener("click", () => {
-    mainHeader.classList.toggle("header__title--color");
-    if (button2.innerText === "Add Color") {
-        button2.innerText = "Remove Color";
-    } else {
-        button2.innerText = "Add Color";
+    const RemoveClick = () => {
+        const paragraphDelete = document.querySelector(".js-main__paragraphDelete");
+        const button = document.querySelector(".js-main__remove");
+        paragraphDelete.remove();
+        button.remove();
     }
 
-});
+    const ChangeTitle = () => {
+        const mainHeader = document.querySelector(".js-header__title");
+
+        mainHeader.classList.toggle("js-header__title--color");
+        const button2 = document.querySelector(".js-header__button");
+
+        button2.innerText =
+            button2.innerText === "Przyciemnij tytul" ?
+            "Rozjasnij tytul" :
+            "Przyciemnij tytul";
+    };
+
+    const init = () => {
+        const button = document.querySelector(".js-main__remove");
+        button.addEventListener("click", RemoveClick);
+        const button2 = document.querySelector(".js-header__button");
+        button2.addEventListener("click", ChangeTitle);
+
+        welcome();
+    };
+
+    init();
+}
