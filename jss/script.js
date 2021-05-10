@@ -3,14 +3,14 @@
         console.log("Witamy w naszej bajce");
     };
 
-    const RemoveClick = () => {
+    const removeParagraph = () => {
         const paragraphDelete = document.querySelector(".js-main__paragraphDelete");
         const button = document.querySelector(".js-main__remove");
         paragraphDelete.remove();
         button.remove();
     }
 
-    const ChangeTitle = () => {
+    const changeTitle = () => {
         const mainHeader = document.querySelector(".js-header__title");
 
         mainHeader.classList.toggle("js-header__title--color");
@@ -24,9 +24,9 @@
 
     const init = () => {
         const button = document.querySelector(".js-main__remove");
-        button.addEventListener("click", RemoveClick);
+        button.addEventListener("click", removeParagraph);
         const button2 = document.querySelector(".js-header__button");
-        button2.addEventListener("click", ChangeTitle);
+        button2.addEventListener("click", changeTitle);
 
         welcome();
     };
